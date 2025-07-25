@@ -20,5 +20,5 @@ app.use('/productos', productosRouter);
 
 //Puerto de escucha
 app.listen(port, () => {
-    console.log(`Servidor en http://localhost:${port}`)
+    console.log(`Servidor corriendo en puerto ${port}`)
 })
