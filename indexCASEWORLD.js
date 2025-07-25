@@ -11,6 +11,9 @@ app.use(express.static('public'));
 app.use(express.json());
 
 
+console.log('Middleware y rutas configuradas correctamente');
+
+
 //Rutas
 const productosRouter = require('./rutas/productos.js'); //Rutas de productos
 
